@@ -12,7 +12,7 @@ A focused Neovim setup for day-to-day coding, with fast navigation, LSP-backed e
 | --- | --- |
 | ![File tree](showcase/file_tree.png) | ![Theme picker](showcase/color_theme_selection.png) |
 
-| Obsidian.nvim|
+| Obsidian.nvim |
 | --- | --- |
 | ![Obisidian.nvim](showcase/image.png) |
 
