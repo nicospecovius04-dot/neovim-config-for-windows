@@ -14,7 +14,7 @@ A focused Neovim setup for day-to-day coding, with fast navigation, LSP-backed e
 
 | Obsidian.nvim |
 | --- |
-| ![Obsidian.nvim](showcase/picture.png) |
+| ![Obsidian.nvim](showcase/image.png) |
 
 
 ## Highlights
