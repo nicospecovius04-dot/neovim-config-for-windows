@@ -1,4 +1,4 @@
-# Salar's Neovim Config
+# Salar's Neovim Config configured for Windows
 
 A focused Neovim setup for day-to-day coding, with fast navigation, LSP-backed editing, debugging, file browsing, and a theme workflow that is easy to switch without touching config files.
 
