@@ -73,3 +73,11 @@ Leader is `<Space>`.
 | `<leader>ds`, `<leader>di`, `<leader>do` | Step over / into / out |
 
 ## Structure
+```text
+init.lua                 Entry point
+lua/nico/core/          Options, keymaps, theme state, filetype setup
+lua/nico/plugins/       Plugin specs
+lua/nico/plugins/lsp/   LSP and Mason setup
+lua/nico/tools/         Small local helper tools
+showcase/                README screenshots
+```
