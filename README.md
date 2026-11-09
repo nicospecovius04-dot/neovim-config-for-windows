@@ -11,6 +11,11 @@ A focused Neovim setup for day-to-day coding, with fast navigation, LSP-backed e
 | File tree | Theme picker |
 | --- | --- |
 | ![File tree](showcase/file_tree.png) | ![Theme picker](showcase/color_theme_selection.png) |
+| Obsidian.nvim|
+| --- | --- |
+
+| ![Obisidian.nvim](<img width="2557" height="1430" alt="image" src="https://github.com/user-attachments/assets/cc488e05-a669-404d-b12a-580bb0b08005" />) |
+
 
 ## Highlights
 
@@ -68,12 +73,3 @@ Leader is `<Space>`.
 | `<leader>ds`, `<leader>di`, `<leader>do` | Step over / into / out |
 
 ## Structure
-
-```text
-init.lua                 Entry point
-lua/nico/core/          Options, keymaps, theme state, filetype setup
-lua/nico/plugins/       Plugin specs
-lua/nico/plugins/lsp/   LSP and Mason setup
-lua/nico/tools/         Small local helper tools
-showcase/                README screenshots
-```
