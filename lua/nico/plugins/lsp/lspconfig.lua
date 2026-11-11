@@ -158,6 +158,26 @@ vim.lsp.config("clangd", {
 
 vim.lsp.enable("clangd")
 
+		//wenn header nicht erkannt werden von clangd
+		/*
+		vim.lsp.config("clangd", {
+    capabilities = capabilities,
+    cmd = {
+        "clangd",
+        "--background-index",
+        "--clang-tidy",
+        "--completion-style=detailed",
+        "--header-insertion=iwyu",
+        "--query-driver=C:/msys64/ucrt64/bin/clang++.exe",
+        "--extra-arg=-std=c++23",
+        "--extra-arg=--target=x86_64-w64-windows-gnu",
+        "--extra-arg=-IC:/msys64/ucrt64/include",
+        "--extra-arg=-Iinclude",
+    },
+})
+
+vim.lsp.enable("clangd")*/
+
 		-- ============================
 		-- Python
 		-- ============================
