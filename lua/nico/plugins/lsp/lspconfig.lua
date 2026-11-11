@@ -148,12 +148,6 @@ vim.lsp.config("clangd", {
         "--header-insertion=iwyu",
         "--query-driver=C:/msys64/ucrt64/bin/clang++.exe",
     },
-    init_options = {
-        fallbackFlags = {
-            "-std=c++23",
-            "--target=x86_64-w64-windows-gnu",
-        },
-    },
 })
 
 vim.lsp.enable("clangd")
